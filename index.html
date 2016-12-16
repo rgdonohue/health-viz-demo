@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Wisconsin Health Index</title>
+        
+        <!--main stylesheet-->
+		<link rel="stylesheet" href="css/style.css" />
+    </head>
+    
+    <body>
+	
+	
+	
+	<header>
+		<h1><span class="logo">2013 Wisconsin <span class='bolder'>Health</span> Index</span></h1>
+		<h2>helping to make communities happy &amp; healthy</h2>
+		<nav>
+			<ul>
+				<li><a id="about" href="#">about</a></li>
+				<li><a href="#">help</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div id="sec1">
+		<div id="map"></div>
+		<div id="infoWindow"></div>
+		<div id="pcpAxisTitles"></div>
+		<div id="pcpContainer"></div>
+	</div><!-- end sec1 -->
+	
+	<div id="sec2">
+		<article>
+			<h2>about this map</h2>
+			<p>Vivamus in dui nisi, eu lobortis mauris. Nam egestas ultricies odio a imperdiet. Mauris odio massa, semper vel ultrices feugiat, imperdiet in dui. Morbi eget odio eget arcu bibendum auctor et vel ante.</p>
+			
+			<h2>about these data</h2>
+			
+			<h3>health outcomes</h3>
+				<dl>	
+					<dt>mortality</dt>
+						<dd>premature death (years of potential life lost before age 75 )</dd>
+					<dt>morbidity (quality of life)</dt>
+						<dd>quality of life (poor or fair health; poor physical health days;poor mental health days</dd>
+						<dd>poor birth outcomes (low birthweight)</dd>
+				</dl>
+			<h3>health factors</h3>
+				<dl>
+					<dt>health behaviors</dt>
+						<dd>smoking (adult smoking)</dd>
+						<dd>diet and exercise (adult obesity; physical inactivity)</dd>
+						<dd>alcohol use (ecessive drinking; moter vehicle crash death rate)</dd>
+						<dd>sexual activity (STIs; teen birth rate)</dd>
+					<dt>clinical care</dt>
+						<dd>access to care (uninsured; primary care physicians; dentists)</dd>
+						<dd>quality of care (preventable hospital stays; diabetic screening; mammography screening)</dd>
+					<dt id="socioeconomic">social and economic factors</dt>
+						<dd>education (high school graduation; some college)</dd>
+						<dd>employment (unemployment)</dd>
+						<dd>income (children in poverty)</dd>
+						<dd>family and social support (inadequate social support; children in single-parent households)</dd>
+						<dd>community safety (violent crime rate)</dd>
+					<dt>physical environment</dt>
+						<dd>environmental quality (daily fine particulate matter; drinking water safet)</dd>
+						<dd>built environmnet (limited to access to healthy foods; access to recreational facilities; fast food restaurants)</dd>
+				</dl>
+			</article>
+	</div>
+	
+	
+	
+    	<!--libraries-->
+		<script src="js/jquery.js"></script>
+		<script src="js/d3.v3.js"></script>
+        <script src="js/topojson.v0.min.js"></script>
+
+    	<!--link to main javascript file-->
+		<script src="js/main.js"></script>
+    </body>
+</html>
